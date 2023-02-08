@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dataset>
+    <user_account id="1" labels="{new_member,label2}"/>
+    <user_account id="2" labels="{label1}"/>
+    <user_account id="3" labels="{label1,label2}"/>
+    <user_account id="4" labels="{label1,label2}"/>
+
+    <company id="1" labels="{label2,label1}"/>
+    <company id="2" labels="{label1}"/>
+    <company id="3" labels="{label1,label2}"/>
+    <company id="4" labels="{label1,label2}"/>
+
+    <site id="1" labels="{label1}"/>
+    <site id="2" labels="{label2}"/>
+    <site id="3" labels="{label1,label2}"/>
+    <site id="4" labels="{label1,label2}"/>
+
+    <label id="1" name="new_member"/>
+    <label id="2" name="label1"/>
+    <label id="3" name="label2"/>
+
+</dataset>

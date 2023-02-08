@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/label_class",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Services\\": "src/services",
+      "Database\\": "src/database"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "require": {
+
+  },
+  "require-dev": {
+    "phpunit/dbunit": "^4.0"
+  }
+}

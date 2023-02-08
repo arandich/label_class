@@ -1,0 +1,21 @@
+<phpunit bootstrap="./tests/bootstrap.php"
+         verbose="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true">
+
+    <php>
+        <var name="DB_DSN" value="pgsql:host=127.0.0.1;port=5432;dbname=tests" />
+        <var name="DB_HOST" value="127.0.0.1" />
+        <var name="DB_USER" value="postgres" />
+        <var name="DB_PASSWORD" value="admin" />
+        <var name="DB_DBNAME" value="tests" />
+        <var name="DB_PORT" value="5432" />
+    </php>
+
+    <testsuites>
+        <testsuite name="persistence">
+            <directory>./tests/Persistence</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

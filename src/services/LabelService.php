@@ -60,9 +60,6 @@ class LabelService
      */
     public function replaceEntityLabels(string $entity, int $id, array $labels): bool
     {
-        if (empty($labels)) {
-            throw new Exception("Null array");
-        }
 
         $this->validate($entity, $id, $labels);
         $stringArray = implode(',', $labels);
